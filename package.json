@@ -19,7 +19,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiaolin3303/react-music-player"
-  },  
+  },
   "dependencies": {
     "pubsub-js": "^1.5.4",
     "react": "^15.0.2",
