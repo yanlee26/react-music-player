@@ -2,7 +2,7 @@ import React from 'react';
 import Progress from '../components/progress';
 import { Link } from 'react-router';
 let PubSub = require('pubsub-js');
-require('./player.less');
+require('./player.scss');
 
 let duration = null;
 

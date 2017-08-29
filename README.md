@@ -7,11 +7,6 @@ music player build with React
 
 ### 如何运行
 
-**安装依赖**
-```shell
-npm install
-```
-
 **开发启动**
 ```shell
 npm start
