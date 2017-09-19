@@ -8,7 +8,7 @@ render(
     <AppContainer>
         <Root />
     </AppContainer>,
-    document.getElementById('root')
+    document.querySelector('#root')
 );
 
 if (module.hot) {
@@ -18,7 +18,7 @@ if (module.hot) {
             <AppContainer>
                 <NewRoot />
             </AppContainer>,
-            document.getElementById('root')
+            document.querySelector('#root')
         );
     });
 }
