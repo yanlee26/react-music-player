@@ -4,7 +4,7 @@
 	border-bottom: 1px solid #ddd;
 	text-indent: 10px;
 	cursor: pointer;
-	.delete {
+	& .delete {
 		cursor: pointer;
 		height: 30px;
 		width: 30px;
@@ -30,6 +30,10 @@
 			left: 15px;
 			top: 0;
 		}
+	}
+
+	& .focus {
+		color: #2f9842;
 	}
 }
 .components-listitem:hover {

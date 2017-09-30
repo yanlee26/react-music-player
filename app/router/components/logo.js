@@ -1,5 +1,5 @@
 import React from 'react';
-require('./logo.scss');
+require('./logo.css');
 
 let Logo = React.createClass({
     render() {

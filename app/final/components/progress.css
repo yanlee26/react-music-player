@@ -6,7 +6,7 @@
 	background: #ddd;
 	cursor: pointer;
 
-	.progress {
+	& .progress {
 		width: 0%;
 		height: 3px;
 		left: 0;

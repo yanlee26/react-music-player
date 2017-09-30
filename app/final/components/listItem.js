@@ -1,5 +1,5 @@
 import React from 'react';
-require('./listitem.scss');
+require('./listitem.css');
 let PubSub = require('pubsub-js');
 
 let ListItem = React.createClass({

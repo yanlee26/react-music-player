@@ -48,17 +48,21 @@ module.exports = {
                 test: /\.json?$/,
                 loader: 'json'
             },
+            // {
+            //     test: /\.css$/,
+            //     loader: "style!css"
+            // },
+            // {
+            //     test: /\.less/,
+            //     loader: 'style-loader!css-loader!less-loader'
+            // },
+            // {
+            //     test: /\.scss$/,
+            //     loaders: ['style', 'css', 'sass']
+            // },
             {
                 test: /\.css$/,
-                loader: "style!css"
-            },
-            {
-                test: /\.less/,
-                loader: 'style-loader!css-loader!less-loader'
-            },
-            {
-                test: /\.scss$/,
-                loaders: ['style', 'css', 'sass']
+                loaders: ['style-loader', 'css-loader','postcss-loader']
             }
         ]
     }
